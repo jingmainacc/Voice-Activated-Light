@@ -1,5 +1,6 @@
 <h1>AI/ML Trained Voice Activated Light</h1>
 
+ ### [Code of the Voice Activated Light](https://github.com/jingmainacc/Voice-Activated-Light/blob/main/VoiceActivatedLight.ipynb)
 
 <h2>Description</h2>
 Developed a voice-controlled light system that responds to voice commands to turn a light on or off. Created an interactive system that recognizes specific keywords, including "on," "off," "silence," and "unknown," to control lighting. Successfully trained, validated, and deployed a machine learning model for keyword detection, achieving accurate recognition of these commands. The system was rigorously tested through a comprehensive training and validation process, ensuring robust performance in real-world scenarios. This project demonstrates effective development and application of audio processing and machine learning techniques in practical settings
