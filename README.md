@@ -3,9 +3,14 @@
  ### [Code of the Voice Activated Light](https://github.com/jingmainacc/Voice-Activated-Light/blob/main/VoiceActivatedLight.ipynb)
 
 <h2>Description</h2>
-Developed a voice-controlled light system that responds to voice commands to turn a light on or off. Created an interactive system that recognizes specific keywords, including "on," "off," "silence," and "unknown," to control lighting. Successfully trained, validated, and deployed a machine learning model for keyword detection, achieving accurate recognition of these commands. The system was rigorously tested through a comprehensive training and validation process, ensuring robust performance in real-world scenarios. This project demonstrates effective development and application of audio processing and machine learning techniques in practical settings
-
+Developed a voice-controlled light system that responds to specific voice commands to control lighting. This project involved creating an interactive system capable of understanding and executing commands such as "on," "off," "silence," and "unknown" to manipulate a light's state. The system integrates advanced audio processing and machine learning techniques to achieve accurate voice command recognition.
 <br />
+
+<h2>Key Features:</h2>
+
+- Voice Command Recognition: The system effectively recognizes and distinguishes between the keywords "on," "off," "silence," and "unknown."
+- Interactive Control: Users can control the light's state through spoken commands, with the system maintaining the light's state unchanged for unrecognized inputs.
+- Machine Learning Model: Utilized a custom-trained SimpleCNN model, which was trained and validated on a diverse dataset of audio recordings containing the target keywords.
 
 
 <h2>Technologies Used:</h2>
@@ -22,15 +27,22 @@ Developed a voice-controlled light system that responds to voice commands to tur
 
 <p align="center">
 <br />
-Input "Off":  <br/>
+<br />
+Input "Off": <br/>
+<br />
 <img src="https://imgur.com/sxPEzYd.png" alt="Disk Sanitization Steps"/>
 <br />
+<br />
 Input "On": <br/>
+<br />
 <img src="https://imgur.com/THMB2Bw.png" alt="Disk Sanitization Steps"/>
+<br />
 <br />
 No input (Silence):
 The state of the bulb should remain the same<br/>
+<br />
 <img src="https://imgur.com/BvDAycA.png"/>
+<br />
 <br />
 
 
