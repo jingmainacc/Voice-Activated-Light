@@ -1,7 +1,6 @@
 <h1>AI/ML Trained Voice Activated Light</h1>
 
- ### [MyAlexa Website Deployed in HuggingFace](https://huggingface.co/spaces/camanalo1/MyAlexaExperiment)
-
+ ### [MyAlexa Website Deployed in HuggingFace]
 <h2>Description</h2>
 Developed a voice-controlled light system that responds to voice commands to turn a light on or
 off. Created an interactive system that recognizes specific keywords to control lighting. Successfully deployed a
