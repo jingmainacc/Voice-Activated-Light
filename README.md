@@ -1,11 +1,8 @@
 <h1>AI/ML Trained Voice Activated Light</h1>
 
- ### [MyAlexa Website Deployed in HuggingFace]
+
 <h2>Description</h2>
-Developed a voice-controlled light system that responds to voice commands to turn a light on or
-off. Created an interactive system that recognizes specific keywords to control lighting. Successfully deployed a
-system that accurately detected keywords and controlled the light, demonstrating effective training and
-development of a machine learning model for practical audio processing applications
+Developed a voice-controlled light system that responds to voice commands to turn a light on or off. Created an interactive system that recognizes specific keywords, including "on," "off," "silence," and "unknown," to control lighting. Successfully trained, validated, and deployed a machine learning model for keyword detection, achieving accurate recognition of these commands. The system was rigorously tested through a comprehensive training and validation process, ensuring robust performance in real-world scenarios. This project demonstrates effective development and application of audio processing and machine learning techniques in practical settings
 
 <br />
 
@@ -18,7 +15,7 @@ development of a machine learning model for practical audio processing applicati
 
 <h2>Environments Used </h2>
 
-- <b>HuggingFace Website</b> 
+- <b>Visual Studio Code</b> 
 
 <h2>Program walk-through:</h2>
 
