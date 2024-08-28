@@ -1,22 +1,21 @@
-<h1>AI/ML Voice Activated Light</h1>
+<h1>AI/ML Trained Voice Activated Light</h1>
 
  ### [MyAlexa Website Deployed in HuggingFace](https://huggingface.co/spaces/camanalo1/MyAlexaExperiment)
 
 <h2>Description</h2>
-Developed a voice assistant named MyAlexa using Gradio, which was deployed on Hugging Face
-Spaces. The project is a functional assistant capable of answering general questions using advanced language
-models. Successfully created a voice assistant that generated meaningful responses to basic questions. Gained
-valuable experience in integrating various AI models and deploying applications.
+Developed a voice-controlled light system that responds to voice commands to turn a light on or
+off. Created an interactive system that recognizes specific keywords to control lighting. Successfully deployed a
+system that accurately detected keywords and controlled the light, demonstrating effective training and
+development of a machine learning model for practical audio processing applications
 
 <br />
 
 
 <h2>Technologies Used:</h2>
 
-- Facebook's ASR for speech recognition
-- Phi-3 LLM for natural language processing
-- Facebook's TTS for speech synthesis
-- Gradio for application development
+- Programming Languages: Python
+- Libraries and Tools: PyAudio, Wave, Torchaudio, PyTorch, Tkinter
+- Model: Custom SimpleCNN, trained on a dataset of audio recordings with keywords
 
 <h2>Environments Used </h2>
 
@@ -26,11 +25,15 @@ valuable experience in integrating various AI models and deploying applications.
 
 <p align="center">
 <br />
-Record an Input a Question like "What is boxing?":  <br/>
-<img src="https://imgur.com/eOtldB8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Input "Off":  <br/>
+<img src="https://imgur.com/sxPEzYd.png" alt="Disk Sanitization Steps"/>
 <br />
-A voice output will be generated which can answer general questions: <br/>
-<img src="https://imgur.com/PGspHa2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Input "On": <br/>
+<img src="https://imgur.com/THMB2Bw.png" alt="Disk Sanitization Steps"/>
+<br />
+No input (Silence):
+The state of the bulb should remain the same<br/>
+<img src="https://imgur.com/BvDAycA.png"/>
 <br />
 
 
